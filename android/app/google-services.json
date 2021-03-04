@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627270353049",
+    "project_id": "e-almanac",
+    "storage_bucket": "e-almanac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627270353049:android:f7a8a3ad929cc5a6213808",
+        "android_client_info": {
+          "package_name": "com.kidsrkids.school"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627270353049-098ls1auj4tpjhtvfdg3ni532nc8jrpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLM8nqCsgLMM-z3bvS0L6BT_qnJmqY56I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627270353049-098ls1auj4tpjhtvfdg3ni532nc8jrpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

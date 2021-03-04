@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:school/Auth.dart';
+import 'package:school/splash.dart';
+
+import 'Login.dart';
+import 'admin/adminhome.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,12 +11,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'E-Almanac',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
-      home: AuthPage(),
+      home: SplashScreen(),
+      routes: <String,WidgetBuilder>{
+        '/login':(BuildContext context)=>LoginPage(),
+        '/admin':(BuildContext context)=>AdminHome(),
+      },
     );
   }
 }
+
+
